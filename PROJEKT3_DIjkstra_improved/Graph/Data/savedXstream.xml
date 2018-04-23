@@ -1,0 +1,216 @@
+<Graph>
+  <SourceData>MyGraph.xml</SourceData>
+  <Junction>
+    <number>0</number>
+    <details id="0">
+      <longitude>19.9305613</longitude>
+      <latitude>50.0619286</latitude>
+      <roadname>Kapucyńska</roadname>
+    </details>
+    <connections>
+      <Junction>
+        <number>3</number>
+        <details id="3">
+          <longitude>19.9304777</longitude>
+          <latitude>50.061063</latitude>
+          <roadname>Loretańska</roadname>
+        </details>
+        <connections>
+          <Junction reference="../../../.."/>
+          <Junction>
+            <number>2</number>
+            <details id="2">
+              <longitude>19.9299148</longitude>
+              <latitude>50.0610411</latitude>
+              <roadname>Plac Generała Władysława Sikorskiego</roadname>
+            </details>
+            <connections>
+              <Junction>
+                <number>1</number>
+                <details id="1">
+                  <longitude>19.9284603</longitude>
+                  <latitude>50.0610123</latitude>
+                  <roadname>Plac Generała Władysława Sikorskiego</roadname>
+                </details>
+                <connections>
+                  <Junction reference="../../../.."/>
+                </connections>
+              </Junction>
+              <Junction>
+                <number>5</number>
+                <details id="5">
+                  <longitude>19.9302239</longitude>
+                  <latitude>50.0602022</latitude>
+                  <roadname>Czapskich</roadname>
+                </details>
+                <connections>
+                  <Junction reference="../../../.."/>
+                </connections>
+              </Junction>
+              <Junction reference="../../../.."/>
+            </connections>
+          </Junction>
+          <Junction>
+            <number>6</number>
+            <details id="6">
+              <longitude>19.9315149</longitude>
+              <latitude>50.0611239</latitude>
+              <roadname>Jabłonowskich</roadname>
+            </details>
+            <connections>
+              <Junction reference="../../../.."/>
+            </connections>
+          </Junction>
+        </connections>
+      </Junction>
+      <Junction>
+        <number>4</number>
+        <details id="4">
+          <longitude>19.930309</longitude>
+          <latitude>50.0625945</latitude>
+          <roadname>Loretańska</roadname>
+        </details>
+        <connections>
+          <Junction reference="../../../.."/>
+        </connections>
+      </Junction>
+    </connections>
+  </Junction>
+  <Junction reference="../Junction/connections/Junction/connections/Junction[2]/connections/Junction"/>
+  <Junction reference="../Junction/connections/Junction/connections/Junction[2]"/>
+  <Junction reference="../Junction/connections/Junction"/>
+  <Junction reference="../Junction/connections/Junction[2]"/>
+  <Junction reference="../Junction/connections/Junction/connections/Junction[2]/connections/Junction[2]"/>
+  <Junction reference="../Junction/connections/Junction/connections/Junction[3]"/>
+  <NodesAmount>7</NodesAmount>
+  <matrix>
+    <double-array>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.09643</double>
+      <double>0.0762</double>
+      <double>0.0</double>
+      <double>0.0</double>
+    </double-array>
+    <double-array>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.10387</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+    </double-array>
+    <double-array>
+      <double>0.0</double>
+      <double>0.10387</double>
+      <double>0.0</double>
+      <double>0.04025</double>
+      <double>0.0</double>
+      <double>0.09585</double>
+      <double>0.0</double>
+    </double-array>
+    <double-array>
+      <double>0.09643</double>
+      <double>0.0</double>
+      <double>0.04025</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.07434</double>
+    </double-array>
+    <double-array>
+      <double>0.0762</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+    </double-array>
+    <double-array>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.09585</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+    </double-array>
+    <double-array>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.07434</double>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>0.0</double>
+    </double-array>
+  </matrix>
+  <heuristicCost>
+    <double-array>
+      <double>0.0</double>
+      <double>0.1813</double>
+      <double>0.10894</double>
+      <double>0.09643</double>
+      <double>0.0762</double>
+      <double>0.19346</double>
+      <double>0.11242</double>
+    </double-array>
+    <double-array>
+      <double>0.1813</double>
+      <double>0.0</double>
+      <double>0.10387</double>
+      <double>0.14411</double>
+      <double>0.21991</double>
+      <double>0.15479</double>
+      <double>0.21839</double>
+    </double-array>
+    <double-array>
+      <double>0.10894</double>
+      <double>0.10387</double>
+      <double>0.0</double>
+      <double>0.04025</double>
+      <double>0.175</double>
+      <double>0.09585</double>
+      <double>0.11459</double>
+    </double-array>
+    <double-array>
+      <double>0.09643</double>
+      <double>0.14411</double>
+      <double>0.04025</double>
+      <double>0.0</double>
+      <double>0.17071</double>
+      <double>0.09741</double>
+      <double>0.07434</double>
+    </double-array>
+    <double-array>
+      <double>0.0762</double>
+      <double>0.21991</double>
+      <double>0.175</double>
+      <double>0.17071</double>
+      <double>0.0</double>
+      <double>0.26607</double>
+      <double>0.18479</double>
+    </double-array>
+    <double-array>
+      <double>0.19346</double>
+      <double>0.15479</double>
+      <double>0.09585</double>
+      <double>0.09741</double>
+      <double>0.26607</double>
+      <double>0.0</double>
+      <double>0.13782</double>
+    </double-array>
+    <double-array>
+      <double>0.11242</double>
+      <double>0.21839</double>
+      <double>0.11459</double>
+      <double>0.07434</double>
+      <double>0.18479</double>
+      <double>0.13782</double>
+      <double>0.0</double>
+    </double-array>
+  </heuristicCost>
+</Graph>
